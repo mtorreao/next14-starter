@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+    .desktopLinks {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .mobileLinks {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+} 
+
+@media (max-width: 768px) {
+    .desktopLinks {
+        display: none;
+    }
+
+    .mobileLinks {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .menu {
+        position: absolute;
+        top: 80px;
+        bottom: 0px;
+        left: 50%;
+        right: 0px;
+        padding-top: 20px;
+        background-color: var(--bg);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        transition: all 5s ease-in-out;
+    }
+}
+
+.menuButton {
+    padding: 12px;
+    border-radius: 12px;
+}
+

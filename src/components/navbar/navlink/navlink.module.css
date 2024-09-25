@@ -1,0 +1,13 @@
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.linkActive {
+    text-decoration: none;
+    border-radius: 12px;
+    background-color: var(--text);
+    color: black;
+    padding: 12px;
+}
